@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">E-Commerce</string>
+    <string name="action_settings">Settings</string>
+    <string name="product_details">Product details</string>
+    <string name="availability">See if it is available</string>
+    <string name="Shirts">shirts</string>
+</resources>

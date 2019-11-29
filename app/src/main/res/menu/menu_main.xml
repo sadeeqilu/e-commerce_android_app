@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.test.e_commerce_app.MainActivity">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:orderInCategory="100"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"/>
+
+    <item
+        android:id="@+id/shirt"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_monetization_on_black_24dp"
+        android:title="@string/Shirts"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/jean"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="Jeans"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/socks"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_monetization_on_black_24dp"
+        android:title="Socks"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings4"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="About"
+        app:showAsAction="never" />
+
+    </group>
+</menu>
